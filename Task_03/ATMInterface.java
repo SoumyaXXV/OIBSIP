@@ -82,6 +82,7 @@ class Transactions {
         } else {
             System.out.println("ENTERED AMOUNT IS GREATER THAN CURRENT BALANCE ❎");
         }
+        ATMInterface.prompt();
     }
 }
 
@@ -114,7 +115,7 @@ class TransactionHistory {
     }
 }
 
-class ATMInterface {
+public class ATMInterface {
     public static String fullName;
     public static int accountBalance = 0;
     public static String accountNumber;
